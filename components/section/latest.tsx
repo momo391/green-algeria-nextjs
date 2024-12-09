@@ -12,7 +12,10 @@ import { Icon } from "@iconify/react";
 export const Latest = () => {
   return (
     <>
-      <section className="min-h-screen flex items-center flex-col justify-center gap-16">
+      <section
+        id="latest"
+        className=" flex items-center flex-col justify-center gap-16"
+      >
         <div className="max-w-3xl text-center mx-auto flex flex-col gap-4">
           <p className="font-sans font-semibold uppercase text-primary text-4xl">
             latest touch
