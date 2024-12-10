@@ -52,7 +52,7 @@ export const LatestCard = () => {
       <div className="w-screen max-w-md">
         <Card>
           <CardHeader>
-            <CardTitle>Setif</CardTitle>
+            <CardTitle>tebessa</CardTitle>
             <CardDescription>
               removing useless concrete and replace it with sakura trees{" "}
             </CardDescription>

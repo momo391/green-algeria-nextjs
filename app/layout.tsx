@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import { sans } from "@/lib/font";
+import { Navbar } from "@/components/navbar";
 
 export const metadata: Metadata = {
   title: "Green Algeria",
@@ -15,7 +16,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
-      <body className={cn("antialiased", sans.variable)}>{children}</body>
+      <body className={cn("antialiased", sans.variable)}>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }
